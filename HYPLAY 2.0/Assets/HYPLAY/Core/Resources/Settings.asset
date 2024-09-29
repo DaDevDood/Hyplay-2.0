@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86356c65269e24441b830d0ca9ce5360, type: 3}
   m_Name: Settings
   m_EditorClassIdentifier: 
-  accessToken: 
+  accessToken: user_at_bOZhx-M3Kmy7UwMshuXjI6JyTsxrUNHlU6wadRs3aj4VeOo5oraFZ_RkxRKppxUY
   devToken: 
   appName: 
   appDescription: 
@@ -20,15 +20,17 @@ MonoBehaviour:
   timeoutHours: 24
   usePopup: 1
   currentApp:
-    id: 
-    secretKey: 
-    name: 
-    description: 
-    redirectUris: []
-    url: 
+    id: 88d04b61-bc5c-4b94-984a-5626f64497c7
+    secretKey: app_sk_yYZAZlYBUn3Zf5kKBtfnXA98i0C8DMJBBLJ2_dlaVLM0n1PWnIg35RABhDCQwJFc
+    name: MaydayNotToday
+    description: A dogfight game where you are too angry to die
+    redirectUris:
+    - https://dadevdood.github.io/MaydayNotToday/redirect.html
+    - myapp://token
+    url: https://dadevdood.github.io/MaydayNotToday/
     iconImageAsset:
-      id: 
-      cdnUrl: 
+      id: 823dc4c6-cd6e-4957-b3c0-90198ef78467
+      cdnUrl: https://assets.hyplay.com/4b2af58e-c622-43c6-891c-faf8d9ae5901/f0bd2ee5d835d5c6de5f8374790add06-1719075534049.png
     backgroundImageAsset:
-      id: 
-      cdnUrl: 
+      id: 03762ad1-4301-4126-9dd1-ec4b8e87ca51
+      cdnUrl: https://assets.hyplay.com/4b2af58e-c622-43c6-891c-faf8d9ae5901/9f50d2de796693d88e8f51584f2672bf-1719075534485.png
